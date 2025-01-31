@@ -4,6 +4,7 @@ import { FiTwitter } from "react-icons/fi";
 import { FaRegComment } from "react-icons/fa6";
 import Link from "next/link";
 import { ulForr } from "@/sanity/lib/image";
+import type { Blog } from "@/app/type";
 
 const Blog = ({ data }: { data: Blog }) => {
   return (
